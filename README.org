@@ -1,0 +1,57 @@
+# STORY-TEMPLATE-VERSION: 4.3.0
+
+* Dropbox integration
+
+  - Authors _expects_ to create / update / delete / publish / synch content as
+    simply as saving a file in a directory _so that_ creating / updating /
+    deleting / publishing / synching content locally and on NNotes web platform
+    requires a minimum overhead.
+
+
+
+** Context
+
+   - Version: 0.0.0
+
+   - Contribution policy: [[http://rfc.zeromq.org/spec:22][C4.1]]
+
+   - Project style guide: [[https://github.com/nomosyn/resources][Coding style]]
+
+   - short name: dbint
+
+   - abbreviation: dbint
+
+   - Licensed under: [[https://www.mozilla.org/MPL/2.0/][MPLv2]]
+
+   - Contributors:
+       - Full name: Pierre-Henry Fröhring, contact: frohring.pierrehenry@gmail.com
+
+
+
+*** Definitions
+
+    - create / update / delete / publish / synch
+
+
+
+** Init State
+
+   - Authors create / update / delete content then upload it on NNotes so that
+     uploaded content version is synched with the local version and published.
+
+
+
+** Problem
+
+   - 1 local content copy and 1 distant content copy + updates => out of synch
+     contents => manual content version management => too much overhead for
+     authors.
+
+
+
+** End State
+
+   - Author saves content locally in a dropbox directory.
+       - content is synch with NNotes DB
+       - => local and distant content copy always in synch, automatically => no
+         overhead for authors.
