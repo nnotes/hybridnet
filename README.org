@@ -30,8 +30,6 @@
 
 *** Definitions
 
-    - create / update / delete / publish / synch
-
 
 
 ** Init State
